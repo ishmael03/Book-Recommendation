@@ -1,31 +1,25 @@
-# Bank Churn 
+Cryptocurrency Clustering Project
 
-Bank Churn Prediction Project
 Project Overview
-This project aims to predict customer churn for a bank. We explore various machine learning models to identify which can most accurately predict churn based on historical customer data. The models evaluated include K-Nearest Neighbors (KNN), Support Vector Classifier (SVC), Random Forest, and Logistic Regression.
+This project is designed to cluster cryptocurrencies using various factors, including market capitalization, price, volume, and social media sentiment. By leveraging data directly from CoinMarketCap's API, we aim to apply and test clustering algorithms to uncover underlying patterns in the cryptocurrency market.
 
 Objective
-The objective of this project is to help the bank reduce customer churn by identifying at-risk customers before they leave, allowing the bank to take proactive measures to retain them.
+The primary objective is to utilize CoinMarketCap's API to explore and validate the effectiveness of clustering algorithms in grouping cryptocurrencies based on their market behavior and social sentiment indicators.
 
 Dataset
-The dataset used in this project includes customer information such as age, balance, membership duration, and transaction history. (Note: Adjust this section based on the actual data you used.)
+The analysis is based on a dataset retrieved from CoinMarketCap's API, encompassing price, volume, supply, and price percent change across different time frames for the top 5,000 coins in the market.
 
-Excute
-To run the analysis, open the Bank_Churn.ipynb notebook in a Jupyter environment and execute the cells sequentially.
+Execution
+To conduct this analysis:
 
+Ensure you have Jupyter Notebook or JupyterLab installed.
+Open the Cluster Cryptocurrency.ipynb notebook within your Jupyter environment.
+Execute the cells sequentially to perform the clustering analysis.
 Models Evaluated
-K-Nearest Neighbors (KNN)
-Support Vector Classifier (SVC)
-Random Forest
-Logistic Regression
-Each model's performance is evaluated based on accuracy, precision, recall, and F1-score.
-
+K-Means Clustering: A pivotal part of the analysis, exploring the segmentation of cryptocurrencies to identify patterns and market dynamics.
 Results
-The Random Forest model showed the highest accuracy and F1-score, making it the most suitable model for predicting bank customer churn in our evaluation.
+The analysis revealed expected outcomes, with Bitcoin and Ethereum dominating the market in terms of market cap and volume. This dominance is reflective in their clustering, underscoring their pivotal role in market movements.
 
 Future Work
-Explore more advanced models like Gradient Boosting and Neural Networks.
-Implement feature engineering to improve model performance.
-Evaluate model performance on a larger and more diverse dataset.
-
-
+Exploration of Advanced Models: Delving into more sophisticated clustering techniques to refine our understanding of market segmentation.
+Incorporation of Additional Metrics: Enhancing the dataset with more diverse metrics to provide a more comprehensive view of the cryptocurrency market.
